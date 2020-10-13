@@ -1,0 +1,52 @@
+body{
+	font-family: helvetica, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.4;
+    background-color: red;
+}
+
+.shape {
+  border-radius: 100px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: inline-block;
+  margin: 50px;
+  background-color: blue;
+  -webkit-transform: rotate(45deg);
+  -webkit-transition: all 1s ease-in-out;
+}
+
+.shape:hover {
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: black;
+  -webkit-transform: scale(1.5);
+  cursor: pointer;
+}
+
+.YOU {
+  font-style: italic;
+  transition: all 5s ease-in-out;
+}
+
+.YOU:hover {
+  cursor: pointer;
+  font-size: 2em;
+}
+
+.Dying! {
+  background: -webkit-linear-gradient(#22abc3, #fd2df3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.8s ease;
+}
+
+.Dying:hover {
+  background: -webkit-radial-gradient(#3ab457, #221dfd, #45dbfc);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
+}
